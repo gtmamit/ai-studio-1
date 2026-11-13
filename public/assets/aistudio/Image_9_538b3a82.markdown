@@ -1,0 +1,213 @@
+---
+name: Atelier Spatial
+colors:
+  surface: '#fcf9f8'
+  surface-dim: '#dcd9d9'
+  surface-bright: '#fcf9f8'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3f2'
+  surface-container: '#f0edec'
+  surface-container-high: '#ebe7e7'
+  surface-container-highest: '#e5e2e1'
+  on-surface: '#1c1b1b'
+  on-surface-variant: '#434655'
+  inverse-surface: '#313030'
+  inverse-on-surface: '#f3f0ef'
+  outline: '#737686'
+  outline-variant: '#c3c6d7'
+  surface-tint: '#0053db'
+  primary: '#004ac6'
+  on-primary: '#ffffff'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#b4c5ff'
+  secondary: '#446900'
+  on-secondary: '#ffffff'
+  secondary-container: '#b2f746'
+  on-secondary-container: '#496f00'
+  tertiary: '#006242'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#007d55'
+  on-tertiary-container: '#bdffdb'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#b2f746'
+  secondary-fixed-dim: '#98da27'
+  on-secondary-fixed: '#121f00'
+  on-secondary-fixed-variant: '#334f00'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#fcf9f8'
+  on-background: '#1c1b1b'
+  surface-variant: '#e5e2e1'
+typography:
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0em
+  label-caps-md:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.12em
+  label-caps-sm:
+    fontFamily: Inter
+    fontSize: 9px
+    fontWeight: '700'
+    lineHeight: 12px
+    letterSpacing: 0.14em
+  numeric-price-lg:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: -0.02em
+  numeric-price-sm:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: -0.01em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-sm: 0.75rem
+  margin: 1.25rem
+  margin-lg: 1.5rem
+  space-2xs: 0.125rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2rem
+  space-3xl: 3rem
+---
+
+## Brand & Style
+This design system defines a high-end, immersive luxury footwear commerce experience engineered for iOS. It combines the rigorous precision of high-fashion catalog design with advanced real-time 3D spatial computing and Augmented Reality (AR) try-on capabilities.
+
+The aesthetic philosophy merges **Minimalist Precision** with **Functional Glassmorphism**:
+- Ultra-clean, studio-lit environments where the physical geometry, textures, and silhouettes of luxury footwear take absolute priority.
+- Restrained, razor-sharp typography with editorial letter-spacing that feels like an architectural monograph.
+- Spatial tactile cues: frosted translucent sheets, micro-hairlines, and delicate floating reticles that ground the user during AR spatial alignment without obstructing the product.
+- High-contrast, dynamic accents engineered to provide instant clarity in interactive 3D viewports.
+
+## Colors
+The color architecture relies on a museum-grade neutral base with high-frequency spatial accents:
+- **Canvas Base (`#F8F8F8`):** An optical off-white that prevents screen glare and renders shoe materials with natural photographic fidelity.
+- **Card Surfaces (`#FFFFFF`):** Pure light planes bounded by subtle structural hairlines (`#E5E5E5`).
+- **Primary Ink (`#141414`):** Matte charcoal / deep ink ensuring maximum typographic contrast without the harshness of pure black.
+- **Secondary Slate (`#737373`):** Subdued neutral for metadata, editorial specifications, and secondary actions.
+- **Electric Cobalt (`#2563EB`):** High-energy primary accent reserved for focal checkout actions, active spatial anchors, and active selection state rings.
+- **Volt & Emerald Accents (`#A3E635` / `#10B981`):** Micro-targeted neon highlights for real-time AR tracking locks, dimensional scale indicators, and limited-edition status chips.
+- **Translucent Overlays:** `rgba(255, 255, 255, 0.75)` combined with backdrop blur (`blur(16px)`) and a delicate white edge (`rgba(255, 255, 255, 0.40)`).
+
+## Typography
+Typographic rhythm follows architectural principles:
+- **Systematic Precision:** Inter is utilized across all tiers, leaning heavily on tight negative tracking for bold display titles to evoke technical luxury.
+- **Editorial Micro-Labels:** `label-caps-md` and `label-caps-sm` must always be rendered in full uppercase with expanded letter-spacing (0.12em - 0.14em). These anchor visual hierarchy in material callouts, technical specs, and AR UI tags.
+- **Numerical Clarity:** All price points use tabular figures (`font-variant-numeric: tabular-nums`) with medium weight to ensure clean vertical alignment across shopping bags and checkout summaries.
+
+## Layout & Spacing
+Built for iOS touch targets and edge-to-edge spatial viewports:
+- **Canvas System:** A standard 4-column layout on iOS mobile viewports with `1.25rem` screen margins and `0.75rem` to `1rem` internal gutters. 
+- **Safe Area Insets:** Floating HUD controls in the 3D Customizer and AR Viewport respect native iOS safe areas (top dynamic island/notch: `44px-54px`, home indicator: `34px`).
+- **Aspect Proportions:** Product gallery cards conform strictly to 4:5 or 1:1 aspect ratios, ensuring studio silhouette symmetry across varying device widths.
+
+## Elevation & Depth
+Depth hierarchy avoids heavy synthetic drop shadows, leaning instead on tonal separation and optical refraction:
+- **Level 0 (Base Canvas):** Background tone `#F8F8F8`. Non-interactive flat surfaces.
+- **Level 1 (Surface Cards & Floating Sheets):** Pure white background (`#FFFFFF`) with a `1px` structural hairline border of `#E5E5E5`. Ambient shadow: `0px 4px 20px -2px rgba(20, 20, 20, 0.04)`.
+- **Level 2 (Spatial HUD & Overlays):** Translucent glassmorphic pill panels (`rgba(255, 255, 255, 0.75)`), backdrop filter blur `16px`, and an internal rim light border: `1px solid rgba(255, 255, 255, 0.60)`. Shadow: `0px 10px 30px -4px rgba(20, 20, 20, 0.08)`.
+- **Level 3 (Modal Bottom Sheets):** Elevates critical purchase flows. Pure white or semi-frosted sheet with a top handle pill and `0px -8px 32px rgba(20, 20, 20, 0.08)`.
+
+## Shapes
+The shape strategy balances structured geometry with fluid human ergonomics:
+- **Micro UI & Interactive Controls:** Buttons, chips, category selectors, and floating HUD toolbars utilize fully rounded pill silhouettes (`rounded-full` / `9999px`) to emphasize touch-friendliness and modern mobile ergonomics.
+- **Containers & Sheet Panels:** Product presentation cards and AR overlay drawers utilize `rounded-2xl` (`1.25rem` to `1.5rem`), matching the native curvature of modern iOS displays.
+- **AR Spatial Elements:** Target reticles, scale calipers, and 3D anchor points utilize pure circles and concentric arcs with 1.5px border weights.
+
+## Components
+
+### Buttons
+- **Primary Action (Add to Bag / Confirm Customization):** Full-bleed or pill-shaped, matte charcoal `#141414` fill with pure white typography, or Electric Cobalt `#2563EB` during key spatial conversion flows. Height: `52px` minimum for effortless thumb engagement.
+- **Secondary Action (Enter AR Try-On / 3D Orbit):** Frosted glass background (`rgba(255, 255, 255, 0.8)`), 1px `#E5E5E5` hairline border, deep ink `#141414` text, paired with vector spatial icon glyphs.
+- **Ghost / Icon Floating Triggers:** Circular `44x44px` glass disks housing hairline vector symbols (gyroscope, reset angle, lighting toggles).
+
+### Badges & Filter Chips
+- **Pill Badges:** Pill-shaped (`rounded-full`), padding `6px 14px`. Inactive states feature `#FFFFFF` with `#E5E5E5` border and `#737373` text. Active states feature `#141414` with `#FFFFFF` text.
+- **Limited / Edition Indicator:** Subtle `#10B981` or `#A3E635` dot indicator (`6x6px`) placed preceding micro-caps tracking text.
+
+### 3D Customizer Carousel & Material Selectors
+- **Material Swatches:** Spherical 3D material previews (`40x40px` circular badges) showing real-world texture rendering (e.g., tumbled leather, ripstop nylon, suede). Active selection has a concentric ring offset by `2px` colored in `#2563EB`.
+- **Part Selection Pills:** Horizontally scrollable glassmorphic pill bar pinned just above the thumb zone allowing instant switching between "Vamp", "Swoop", "Outsole", "Laces", and "Lining".
+
+### AR Reticle & Spatial Calipers
+- **Foot Detection Visualizer:** Dynamic hairline reticle that pulses smoothly (`rgba(37, 99, 235, 0.4)`) across the user's floor plane until anchor locking occurs, transitioning instantly into a static high-contrast `#A3E635` bounding contour with sub-millimeter tracking metrics displayed in `label-caps-sm`.
+
+### Product Cards
+- **Structure:** Framed in pure white `#FFFFFF` with hairline `#E5E5E5` boundaries. Clean product isolation against pure studio void.
+- **Metadata Layout:** Micro-caps category label at top left, heart/wishlist trigger top right. Bottom zone stacks the shoe silhouette title (`headline-sm`) over the monospace tabular pricing format.
+
+### Input Fields & Selectors
+- Minimalist floating fields: height `48px`, background `#FFFFFF`, border `1px solid #E5E5E5`, smooth transition to `1px solid #2563EB` upon focus. Inner placeholder rendered in `#737373`.

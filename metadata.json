@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Spatial",
+  "description": "Luxury architectural footwear catalog with interactive Three.js 3D customization and simulated AR spatial try-on.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
